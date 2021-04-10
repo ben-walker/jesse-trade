@@ -7,10 +7,10 @@ from jesse.utils import anchor_timeframe
 
 # trading routes
 routes = [
-    ('Binance', 'BTC-USDT', '4h', 'ExampleStrategy'),
+    ('Coinbase', 'BTC-USDT', '4h', 'SMACrossover'),
 ]
 
 # in case your strategy requires extra candles, timeframes, ...
 extra_candles = [
-    ('Binance', 'BTC-USDT', anchor_timeframe('4h')),
+    ('Coinbase', 'BTC-USDT', anchor_timeframe('4h')),
 ]
