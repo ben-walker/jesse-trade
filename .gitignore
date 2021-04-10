@@ -1,0 +1,15 @@
+# Database data
+db-data/
+
+# Jesse defaults
+*pycache*
+.pytest_cache
+.vscode
+jesse.egg-info
+.idea
+storage/
+.DS_Store
+.vagrant
+*.pyc
+venv
+.ipynb_checkpoints
